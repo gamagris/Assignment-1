@@ -20,9 +20,9 @@
         }
         public void ValidateAge()
         {
-            if (Age > 1)
+            if (Age < 20)
             {
-                throw new ArgumentOutOfRangeException("Player's age must be more then 1");
+                throw new ArgumentOutOfRangeException("Player's age must be more then 20");
             }
         }
         public void ValidateShirtNumber()
